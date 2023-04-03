@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .page {
-  @apply bg-gray-200 h-screen w-screen flex flex-col;
+  @apply bg-gray-200 h-screen w-screen flex flex-col overflow-y-auto;
 }
 
 .navbar {
