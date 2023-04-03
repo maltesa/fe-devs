@@ -31,7 +31,8 @@ function App() {
             <Message key={i} username={message.username} text={message.text} />
           );
         })}
-        <div ref={lastElementRef} className="pb-32" />
+        <div className="h-40 w-full" />
+        <div ref={lastElementRef} />
       </div>
 
       <input
